@@ -6,7 +6,7 @@ uses
   Classes,
   Math,
   BearLibMap,
-  BearLibPF,
+  BearLibPF in '..\include\bearlibpf.pas',
   bearlibMG;
 
 // Map layers:

@@ -5,7 +5,7 @@ interface
   uses uPathfinder;
 
 const
-  MAXLEN = 10000;
+  MAXLEN = 20000;
 type
   TPathFindBlock = record
     CostWay:TDistance;
@@ -39,27 +39,7 @@ type
 
 implementation
 
-function Max(A, B: Integer): Integer;inline;
-begin
-  if A > B then
-    Result := A
-  else
-    Result := B;
-end;
-
-function Min(A, B: Integer): Integer;inline;
-begin
-  if A < B then
-    Result := A
-  else
-    Result := B;
-end;
-
-function InRange(X, A, B: Integer): Boolean;inline;
-begin
-  Result := (X >= A) and (X <= B);
-end;
-
+uses MyMath;
 
 
 { TAStar }

@@ -1,7 +1,7 @@
 library BeaRLibPF;
 
 uses
-  uastar in 'uastar.pas', uInterface;
+  uAStar, uInterface, uDijkstra, uPathfinder, BearLibMap;
 
 exports
   pf_create,

@@ -31,7 +31,7 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <Units Count="2">
+    <Units Count="5">
       <Unit0>
         <Filename Value="BeaRLibPF.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -41,6 +41,19 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="uInterface"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="bearlibmap.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BearLibMap"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uDijkstra.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uPathfinder.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
